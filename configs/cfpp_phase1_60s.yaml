@@ -1,0 +1,40 @@
+# Common 60-second CF++ framewise-2step I2V substrate for every Phase-1 arm.
+# Mechanism overlays live in configs/phase1/*.yaml; do not fork this file per arm.
+denoising_step_list: [1000, 500]
+denoising_step_list_first_chunk: [1000, 750, 500, 250]
+warp_denoising_step: true
+num_frame_per_block: 1
+independent_first_frame: true
+context_noise: 0
+i2v: true
+
+steady_profile: cfpp_phase1_noflush_60s_v1
+eval_fps: 16
+eval_blocks: 240
+eval_pixel_frames: 961
+kv_flush_period: 0
+kv_flush_keep_frames: 6
+
+model_kwargs:
+  timestep_shift: 5.0
+  sink_size: 3
+  local_attn_size: 21
+  relativistic_rope: true
+  ema_sink: true
+  compression_alpha: 0.99
+  rope_jitter_sigma: 0.0
+  rope_jitter_seed: 20260921
+  echo_memory: false
+
+phase1:
+  alg:
+    enabled: false
+    downsample_factor: 2.5
+    step_ratio: 0.10
+    # The paper delays filtering by two steps for 50-step samplers. A two-step
+    # CF++ student would disable ALG entirely, so the few-step adaptation is 0.
+    clean_delay_steps: 0
+  dymos:
+    gamma: 0.0
+    step_ratio: 0.10
+

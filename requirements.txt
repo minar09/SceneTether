@@ -1,0 +1,24 @@
+# Versions of the environment the paper's results were generated in (Python 3.10, CUDA 12.1).
+torch==2.5.1
+torchvision==0.20.1
+flash-attn==2.8.3
+diffusers==0.31.0
+transformers==4.45.2
+accelerate==0.34.0
+omegaconf==2.3.1
+einops==0.8.2
+easydict==1.13
+ftfy==6.3.1
+regex
+sentencepiece==0.2.1
+safetensors==0.8.0
+huggingface_hub==0.36.2
+imageio==2.37.3
+imageio-ffmpeg==0.6.0
+av==13.1.0
+opencv-python-headless==4.11.0.86
+numpy==1.26.4
+scipy==1.15.3
+pillow==11.3.0
+tqdm==4.67.3
+lmdb==2.2.1

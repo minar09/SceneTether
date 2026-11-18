@@ -1,0 +1,10 @@
+phase1:
+  arm: echo_forcing_single_scene
+model_kwargs:
+  echo_memory: true
+  echo_anchor_pool: 18
+  echo_anchor_frames: 12
+  echo_compressed_frames: 3
+  echo_recent_frames: 6
+  echo_anchor_stride: 3
+
