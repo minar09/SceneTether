@@ -1,4 +1,12 @@
-# SceneTether
+# SceneTether: Activity-Gated Value Anchoring for Long-Horizon Autoregressive Image Animation
+
+[Matiur Rahman Minar](https://minar09.github.io/) · [Seunghun Oh](https://owinhun.github.io/) · GangHyeon Jeong · [Unsang Park](https://cviplab.sogang.ac.kr/)
+
+Sogang University
+
+**Official code release** for SceneTether. Visit the [project page](https://minar09.github.io/scenetether/) for visual results and more information.
+
+## Overview
 
 Training-free long-horizon image animation for fixed-camera nature scenes.
 
@@ -83,3 +91,16 @@ Apache-2.0 (see `LICENSE`). This code builds on [Causal Forcing](https://github.
 [Self Forcing](https://github.com/guandeh17/Self-Forcing), CausVid and [Wan2.1](https://github.com/Wan-Video/Wan2.1);
 files under `wan21/` are modified from Wan2.1 and keep their original copyright notices. The Echo memory follows
 the Echo-Forcing paper. Model weights are subject to their own licenses.
+
+## Citation
+
+If you use this code or find SceneTether useful in your research, please cite:
+
+```bibtex
+@misc{minar2026scenetether,
+  title  = {SceneTether: Activity-Gated Value Anchoring for Long-Horizon Autoregressive Image Animation},
+  author = {Minar, Matiur Rahman and Oh, Seunghun and Jeong, GangHyeon and Park, Unsang},
+  year   = {2026},
+  url    = {https://minar09.github.io/scenetether/}
+}
+```
