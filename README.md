@@ -4,7 +4,10 @@
 
 Sogang University
 
-**Official code release** for SceneTether. Visit the [project page](https://minar09.github.io/scenetether/) for visual results and more information.
+[![arXiv](https://img.shields.io/badge/arXiv-2611.28134-b31b1b.svg)](https://arxiv.org/abs/2611.28134)
+[![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://minar09.github.io/scenetether/)
+
+**Official codebase release** for the paper [*SceneTether: Activity-Gated Value Anchoring for Long-Horizon Autoregressive Image Animation*](https://arxiv.org/abs/2611.28134) ([PDF](https://arxiv.org/pdf/2611.28134)). Visit the [project page](https://minar09.github.io/scenetether/) for visual results and more information.
 
 ## Overview
 
@@ -94,13 +97,14 @@ the Echo-Forcing paper. Model weights are subject to their own licenses.
 
 ## Citation
 
-If you use this code or find SceneTether useful in your research, please cite:
+If you use this code or find SceneTether useful in your research, please cite our paper:
 
 ```bibtex
-@misc{minar2026scenetether,
-  title  = {SceneTether: Activity-Gated Value Anchoring for Long-Horizon Autoregressive Image Animation},
-  author = {Minar, Matiur Rahman and Oh, Seunghun and Jeong, GangHyeon and Park, Unsang},
-  year   = {2026},
-  url    = {https://minar09.github.io/scenetether/}
+@article{minar2026scenetether,
+  title   = {SceneTether: Activity-Gated Value Anchoring for Long-Horizon Autoregressive Image Animation},
+  author  = {Minar, Matiur Rahman and Oh, Seunghun and Jeong, GangHyeon and Park, Unsang},
+  journal = {arXiv preprint arXiv:2611.28134},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2611.28134}
 }
 ```
