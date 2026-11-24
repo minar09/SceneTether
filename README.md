@@ -1,6 +1,6 @@
 # SceneTether: Activity-Gated Value Anchoring for Long-Horizon Autoregressive Image Animation
 
-[Matiur Rahman Minar](https://minar09.github.io/) · [Seunghun Oh](https://owinhun.github.io/) · GangHyeon Jeong · [Unsang Park](https://cviplab.sogang.ac.kr/)
+[Matiur Rahman Minar](https://minar09.github.io/) · [Seunghun Oh](https://owinhun.github.io/) · [GangHyeon Jeong](https://github.com/Jugahy) · [Unsang Park](https://cviplab.sogang.ac.kr/cviplab/1249.html)
 
 Sogang University
 
@@ -101,10 +101,14 @@ If you use this code or find SceneTether useful in your research, please cite ou
 
 ```bibtex
 @article{minar2026scenetether,
-  title   = {SceneTether: Activity-Gated Value Anchoring for Long-Horizon Autoregressive Image Animation},
-  author  = {Minar, Matiur Rahman and Oh, Seunghun and Jeong, GangHyeon and Park, Unsang},
-  journal = {arXiv preprint arXiv:2611.28134},
-  year    = {2026},
-  url     = {https://arxiv.org/abs/2611.28134}
+  title         = {SceneTether: Activity-Gated Value Anchoring for Long-Horizon Autoregressive Image Animation},
+  author        = {Matiur Rahman Minar and Seunghun Oh and Ganghyeon Jeong and Unsang Park},
+  journal       = {arXiv preprint arXiv:2611.28134},
+  year          = {2026},
+  eprint        = {2611.28134},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  doi           = {10.48550/arXiv.2611.28134},
+  url           = {https://arxiv.org/abs/2611.28134}
 }
 ```
